@@ -135,13 +135,15 @@ background-color:#ffffff;
 .displayproducts {
     clear:both;
     height:auto;
-    background-color:cadetblue;
     text-align:center;
     padding:10px;
+    margin-left:50px;
 }
 
     .displayproducts div {
     
+        margin-left:auto;
+        margin-right:auto;
         width:200px;
         height:300px;
         text-align:center;
@@ -149,6 +151,8 @@ background-color:#ffffff;
         border:2px solid #0e1258;
         margin:20px;
         border-radius:10px;
+        background-color:aliceblue;
+        float:left;
         
     
     }
@@ -157,6 +161,7 @@ background-color:#ffffff;
         width:150px;
         height:150px;
         border:4px outset #ffffff;
+        border-radius:10px;
 
         }
 

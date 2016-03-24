@@ -89,6 +89,7 @@
 
       </div>
       <div class="displayproducts">
+          <h1>Recently Added Products</h1>
           <div>
               <img src="images/products/Baby-Clothes-Girl.jpg" />
               <h3>Baby Clothes</h3>
@@ -98,8 +99,71 @@
 
           </div>
 
+          <div>
+              <img src="images/products/Baby-Clothes-Girl.jpg" />
+              <h3>Baby Clothes</h3>
+              <p>Available Colors (White)</p>
+              <p>Ages 6-12 months</p>
+
+
+          </div>
+
+          <div>
+              <img src="images/products/Baby-Clothes-Girl.jpg" />
+              <h3>Baby Clothes</h3>
+              <p>Available Colors (White)</p>
+              <p>Ages 6-12 months</p>
+
+
+          </div>
+
+          <div>
+              <img src="images/products/Baby-Clothes-Girl.jpg" />
+              <h3>Baby Clothes</h3>
+              <p>Available Colors (White)</p>
+              <p>Ages 6-12 months</p>
+
+
+          </div>
+
+          <div>
+              <img src="images/products/Baby-Clothes-Girl.jpg" />
+              <h3>Baby Clothes</h3>
+              <p>Available Colors (White)</p>
+              <p>Ages 6-12 months</p>
+
+
+          </div>
+
+          <div>
+              <img src="images/products/Baby-Clothes-Girl.jpg" />
+              <h3>Baby Clothes</h3>
+              <p>Available Colors (White)</p>
+              <p>Ages 6-12 months</p>
+
+
+          </div>
+
+          <div>
+              <img src="images/products/Baby-Clothes-Girl.jpg" />
+              <h3>Baby Clothes</h3>
+              <p>Available Colors (White)</p>
+              <p>Ages 6-12 months</p>
+
+
+          </div>
+
+          <div>
+              <img src="images/products/Baby-Clothes-Girl.jpg" />
+              <h3>Baby Clothes</h3>
+              <p>Available Colors (White)</p>
+              <p>Ages 6-12 months</p>
+
+
+          </div>
 
       </div>
+    
 
   </asp:Content>
 
