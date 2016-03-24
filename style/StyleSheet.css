@@ -133,9 +133,39 @@ background-color:#ffffff;
 }
 
 .displayproducts {
-
-
+    clear:both;
+    height:auto;
+    background-color:cadetblue;
+    text-align:center;
+    padding:10px;
 }
+
+    .displayproducts div {
+    
+        width:200px;
+        height:300px;
+        text-align:center;
+        padding:10px;
+        border:2px solid #0e1258;
+        margin:20px;
+        border-radius:10px;
+        
+    
+    }
+        .displayproducts div img {
+        
+        width:150px;
+        height:150px;
+        border:4px outset #ffffff;
+
+        }
+
+        .displayproducts div p {
+        line-height:0px;
+        
+        }
+
+
 #login {
 
 font-size:.8em;

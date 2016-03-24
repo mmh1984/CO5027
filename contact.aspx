@@ -69,7 +69,7 @@
 
         </div>
         <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15901.01484227823!2d114.92079081886293!3d4.897142022575935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32228ac8f98c190d%3A0x89c4a654e8c25667!2sBest+Eastern!5e0!3m2!1sen!2sbn!4v1458572431984" frameborder="0" style="" width="100%" height="1000" allowfullscreen ></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.3236145263204!2d114.92923251426342!3d4.885368641390116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32228ac8ee3f7d03%3A0xcacd96016959ec39!2sLaksamana+College+of+Business!5e0!3m2!1sen!2sbn!4v1458807971189" width="100%" height="1000" frameborder="0" style="border:0" allowfullscreen></iframe>
 
         </div>
         

@@ -88,7 +88,18 @@
           
 
       </div>
+      <div class="displayproducts">
+          <div>
+              <img src="images/products/Baby-Clothes-Girl.jpg" />
+              <h3>Baby Clothes</h3>
+              <p>Available Colors (White)</p>
+              <p>Ages 6-12 months</p>
 
+
+          </div>
+
+
+      </div>
 
   </asp:Content>
 
