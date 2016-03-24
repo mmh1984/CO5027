@@ -166,7 +166,8 @@ background-color:#ffffff;
         }
 
         .displayproducts div p {
-        line-height:0px;
+        line-height:normal;
+        font-size:.8em;
         
         }
 

@@ -100,8 +100,44 @@
           </div>
 
           <div>
-              <img src="images/products/Baby-Clothes-Girl.jpg" />
-              <h3>Baby Clothes</h3>
+              <img src="images/products/baby-newborn-clothes-10.jpg" />
+              <h3>New Born</h3>
+              <p>Available Colors (White,Blue)</p>
+              <p>Ages 0-6 months</p>
+
+
+          </div>
+
+          <div>
+              <img src="images/products/famile5.jpg" />
+              <h3>Baby Sleepwear</h3>
+              <p>Available Colors (see photos above)</p>
+              <p>Ages 0-6 months</p>
+
+
+          </div>
+
+          <div>
+              <img src="images/products/hats.jpg" />
+              <h3>Baby CAPs</h3>
+              <p>Available Colors (see photo)</p>
+              <p>Ages 6-12 months</p>
+
+
+          </div>
+
+          <div>
+              <img src="images/products/imagepull.php.jpg" />
+              <h3>Baby Caps</h3>
+              <p>Available Colors (see colors)</p>
+              <p>Ages 6-24 months</p>
+
+
+          </div>
+
+          <div>
+              <img src="images/products/index.jpg" />
+              <h3>Mittens</h3>
               <p>Available Colors (White)</p>
               <p>Ages 6-12 months</p>
 
@@ -109,53 +145,17 @@
           </div>
 
           <div>
-              <img src="images/products/Baby-Clothes-Girl.jpg" />
-              <h3>Baby Clothes</h3>
-              <p>Available Colors (White)</p>
+              <img src="images/products/isabootiesroundup.jpg" />
+              <h3>Baby Shoes</h3>
+              <p>Available Colors (See photos)</p>
               <p>Ages 6-12 months</p>
 
 
           </div>
 
           <div>
-              <img src="images/products/Baby-Clothes-Girl.jpg" />
-              <h3>Baby Clothes</h3>
-              <p>Available Colors (White)</p>
-              <p>Ages 6-12 months</p>
-
-
-          </div>
-
-          <div>
-              <img src="images/products/Baby-Clothes-Girl.jpg" />
-              <h3>Baby Clothes</h3>
-              <p>Available Colors (White)</p>
-              <p>Ages 6-12 months</p>
-
-
-          </div>
-
-          <div>
-              <img src="images/products/Baby-Clothes-Girl.jpg" />
-              <h3>Baby Clothes</h3>
-              <p>Available Colors (White)</p>
-              <p>Ages 6-12 months</p>
-
-
-          </div>
-
-          <div>
-              <img src="images/products/Baby-Clothes-Girl.jpg" />
-              <h3>Baby Clothes</h3>
-              <p>Available Colors (White)</p>
-              <p>Ages 6-12 months</p>
-
-
-          </div>
-
-          <div>
-              <img src="images/products/Baby-Clothes-Girl.jpg" />
-              <h3>Baby Clothes</h3>
+              <img src="images/products/original_original_IMG_4271.jpg" />
+              <h3>Baby Mittens</h3>
               <p>Available Colors (White)</p>
               <p>Ages 6-12 months</p>
 
