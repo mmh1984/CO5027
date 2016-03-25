@@ -33,29 +33,29 @@
             <table>
                 <caption>Contact us</caption>
                 <tr>
-                    <td>Name</td>
+                    <td>Name <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Name is required" Font-Italic="True" ControlToValidate="txtname" ForeColor="Red"></asp:RequiredFieldValidator></td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:TextBox ID="TextBox1" runat="server" Width="300px"></asp:TextBox></td>
+                        <asp:TextBox ID="txtname" runat="server" Width="300px"></asp:TextBox></td>
                 </tr>
                 <tr>
-                    <td>Email</td>
-                </tr>
-                <tr>
-                    <td>
-                        <asp:TextBox ID="TextBox2" runat="server" Width="300px"></asp:TextBox></td>
-                </tr>
-                <tr>
-                    <td>Comments</td>
+                    <td>Email <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="email required" Font-Italic="True" ControlToValidate="txtemail" ForeColor="Red"></asp:RequiredFieldValidator></td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:TextBox ID="TextBox3" runat="server" Width="300px" TextMode="MultiLine" Rows="10" Columns="100"></asp:TextBox></td>
+                        <asp:TextBox ID="txtemail" runat="server" Width="300px" TextMode="Email"></asp:TextBox></td>
+                </tr>
+                <tr>
+                    <td>Comments <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="Address required" Font-Italic="True" ControlToValidate="txtcomments" ForeColor="Red"></asp:RequiredFieldValidator></td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:Button ID="Button1" runat="server" Text="Send" />
+                        <asp:TextBox ID="txtcomments" runat="server" Width="300px" TextMode="MultiLine" Rows="10" Columns="100"></asp:TextBox></td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Button ID="btnsend" runat="server" Text="Send" />
                         <a href="Default.aspx">Back</a>
 
                     </td>

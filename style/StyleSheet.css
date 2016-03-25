@@ -145,14 +145,15 @@ background-color:#ffffff;
         margin-left:auto;
         margin-right:auto;
         width:200px;
-        height:300px;
+        height:280px;
         text-align:center;
         padding:10px;
         border:2px solid #0e1258;
         margin:20px;
         border-radius:10px;
-        background-color:aliceblue;
+        background-color:#0e1258;
         float:left;
+        color:white;
         
     
     }
@@ -166,10 +167,17 @@ background-color:#ffffff;
         }
 
         .displayproducts div p {
-        line-height:normal;
+        line-height:.8;
         font-size:.8em;
         
         }
+         .displayproducts div h3 {
+        line-height:.5;
+       
+
+        
+        }
+
 
 
 #login {
