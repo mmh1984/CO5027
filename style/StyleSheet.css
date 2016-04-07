@@ -73,10 +73,10 @@
 
 #content {
     clear:both;
-   
     background-color:#ffffff;
     height:600px;
     width:100%;
+    background-color:#100740;
     
 }
 
@@ -131,8 +131,55 @@ padding:20px;
     height:600px;
     width:28%;
     padding:10px;
+    text-align:center;
+    font-family:'Courier New';
+
+    
+    
+}
+#signup table {
+    width:100%;
+    border:1px solid black;
+    background-color:#100740;
+    padding:20px;
+     background-color:white;
+    
 }
 #signup caption {
+    font-size:2em;
+    margin:10px;
+    font-weight:bold;
+    color:white;
+    text-decoration:underline;
+}
+#signup table input[type=text]{
+   
+    padding:20px;
+    border:1px solid black;
+    text-align:center;
+    font-size:1em;
+    color:#808080;
+    font-family:'Courier New';
+    width:300px;
+    background-color:aliceblue;
 
 }
 
+#signup table input[type=submit],#signup table input[type=reset]{
+   
+    padding:10px;
+    border:1px solid black;
+    text-align:center;
+    font-size:1em;
+    color:white;
+    font-family:'Courier New';
+    width:350px;
+    background-color:black;
+     margin-top:10px;
+
+}
+#products {
+    height:auto;
+    clear:both;
+
+}

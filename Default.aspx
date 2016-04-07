@@ -16,7 +16,7 @@
            </tr>
            <tr>
                 <td>
-                    <asp:TextBox ID="txtusername" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtusername" runat="server">username</asp:TextBox>
                 </td>
            </tr>
            <tr>
@@ -27,18 +27,29 @@
            </tr>
             <tr>
                 <td>
-                    <asp:TextBox ID="txtpassword" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtpassword" runat="server">password</asp:TextBox>
                 </td>
            </tr>
             <tr>
                 <td>
-                    <asp:Button ID="btnsignin" runat="server" Text="Button" /><input id="Reset1" type="reset" value="reset" />
+                    <asp:Button ID="btnsignin" runat="server" Text="Sign up" />
+                   
+                    <input id="Reset1" type="reset" value="Clear" />
+                    
                 </td>
+           </tr>
+           <tr>
+               <td>
+
+               </td>
            </tr>
        </table>
 
    </div>     
+   <div id="products">
 
+
+   </div>
       
   </asp:Content>
 
