@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 14 for Web
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website Production and Development", "..\Website Production and Development\", "{4B17CD34-A5D0-4CC2-A710-6C1DDA0A74E5}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website Production and Development", ".", "{4B17CD34-A5D0-4CC2-A710-6C1DDA0A74E5}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_53548"
@@ -21,6 +21,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website Production and Deve
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "53548"
+		SlnRelativePath = "..\Website Production and Development\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject

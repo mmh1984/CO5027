@@ -6,6 +6,39 @@
 <head runat="server">
     <title></title>
     <link href="Style/StyleSheet.css" rel="stylesheet" type="text/css" />
+
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+  var mapProp = {
+    center: new google.maps.LatLng(4.885171, 114.931550),
+    zoom:9,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    mapTypeControl: true,
+    mapTypeControlOptions: {
+
+        //style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+        position: google.maps.ControlPosition.TOP_CENTER
+    }
+  };
+  var map1 = new google.maps.Map(document.getElementById("map"), mapProp);
+  var marker = new google.maps.Marker({
+      position: new google.maps.LatLng(4.885171, 114.931550),
+      animation:google.maps.Animation.BOUNCE,
+      map:map1,
+      title:"Click to zoom"
+  });
+
+  marker.setMap(map1);
+
+  google.maps.event.addListener(marker, 'click', function () {
+      map1.setZoom(20);
+      map1.setCenter(marker.getPosition());
+  });
+
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -31,6 +64,7 @@
             </div>
             <div >
             <table>
+                <asp:Literal ID="message" runat="server"></asp:Literal>
                 <caption>Contact us</caption>
                 <tr>
                     <td>Name <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Name is required" Font-Italic="True" ControlToValidate="txtname" ForeColor="Red"></asp:RequiredFieldValidator></td>
@@ -55,7 +89,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Button ID="btnsend" runat="server" Text="Send" />
+                        <asp:Button ID="btnsend" runat="server" Text="Send" OnClick="btnsend_Click1" />
                         <a href="Default.aspx">Back</a>
 
                     </td>
@@ -68,10 +102,10 @@
          
 
         </div>
-        <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.3236145263204!2d114.92923251426342!3d4.885368641390116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32228ac8ee3f7d03%3A0xcacd96016959ec39!2sLaksamana+College+of+Business!5e0!3m2!1sen!2sbn!4v1458807971189" width="100%" height="1000" frameborder="0" style="border:0" allowfullscreen></iframe>
+       <div id="map">
 
-        </div>
+
+       </div>
         
 
     </form>

@@ -1,511 +1,127 @@
 ﻿body {
-
-    background-color:#1855d1;
-    font-family:Verdana;
+    background:#100740;
+     margin:0;
+    padding:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #mainbox {
-margin-top:30px;
-margin-left:auto;
-margin-right:auto;
-width:1200px;
-margin-bottom:30px;
-border:3px dotted blue;
-background-color:#ffffff;
-
+    padding:0;
+    margin:0;
 
 }
+#header #logo{
 
-#mainbox fieldset{
-
-     border:1px solid #1855d1;
-
-}
-
-#mainbox #header {
-background-image:url(../images/headernew.png);    
-height:180px;
-background-repeat:no-repeat;
-background-color:white;
-
-    
-}
-.userdetails {
-
-    text-align:center;
-    font-family:Verdana;
-    font-size:.9em;
-    
-
-}
-
-.purchasehistory legend,.userdetails legend{
-    
-    font-weight:bold;
-    margin-left:20px;
-    margin-right:auto;
-
-}
-.purchasehistory table {
-margin-top:20px;
-   width:700px;
-   background-color:burlywood;
-   padding:10px;
-   border-collapse:collapse;
-   font-size:.8em;
-   margin-left:auto;
-   margin-right:auto;
-
-}
-    .purchasehistory table td {
-    border:2px inset black; 
-    padding:5px;
-    text-align:center;
-
-    }
-
-    .purchasehistory table th {
-    border:2px inset black; 
-    padding:5px;
-    text-align:center;
-    background-color:#0e1258;
-    color:white;
-
-    }
-    #content {
- 
-    font-family:Verdana;
-    /*background-color:#d9d7aa;*/
-    height:auto;
-
-    
-    }
-
-#mainbox #footer {
-
-    background-color:#0e1258;
-    height:auto;
-    clear:both;
+    width:20%;
+    float:left;
     padding:10px;
-    text-align:center;
-    clear:both;
-}
-    #mainbox #footer img {
-     width:30px;
-     height:30px;
-     padding:5px;
-    
-    }
-
-    #mainbox #footer table {
-    
-    margin-left:auto;
-    margin-right:auto;
-    }
-    #mainbox #footer table a{
-    
-        text-decoration:none;
-        color:white;
-        font-size:13px;
-    
-    }
-    #mainbox #footer p {
-    
-    margin:0px;
     color:white;
-    font-size:.8em;
-    }
+    background-image:url("../images/baby-23991_640.png");
+    background-size:auto;
+
+}
+
+#header h1,h3{
+    margin:0;
+
+}
+
+#header #navigation {
+    width:70%;
+    float:right;
+
+ 
+
+}
+
+#navigation table{
+    width:100%;
+    font-size:1.5em;
+    color:black;
+    border-collapse:collapse;
+    height:90px;
+}
+
+#navigation table td{
+    border:1px solid white;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+     background-color:#0a0b1d;
+
+
+
+}
+
+#navigation table td:hover{
+    border:1px solid white;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+    opacity:.5;
+   
+
+
+}
 
 #homepage {
-
-float:left;
-width:40%;
-height:auto;
-color:black;
-}
-
-#latestproduct {
-
-float:right;
-width:55%;
-background-color:#ffffff;
+    background-image:url(../images/download.jpg);
 
 }
 
-.displayproducts {
+#content {
     clear:both;
-    height:auto;
-    text-align:center;
-    padding:10px;
-    margin-left:50px;
-}
-
-    .displayproducts div {
-    
-        margin-left:auto;
-        margin-right:auto;
-        width:200px;
-        height:280px;
-        text-align:center;
-        padding:10px;
-        border:2px solid #0e1258;
-        margin:20px;
-        border-radius:10px;
-        background-color:#0e1258;
-        float:left;
-        color:white;
-        
-    
-    }
-        .displayproducts div img {
-        
-        width:150px;
-        height:150px;
-        border:4px outset #ffffff;
-        border-radius:10px;
-
-        }
-
-        .displayproducts div p {
-        line-height:.8;
-        font-size:.8em;
-        
-        }
-         .displayproducts div h3 {
-        line-height:.5;
-       
-
-        
-        }
-
-
-
-#login {
-
-font-size:.8em;
-width:40%;
-padding:15px;
-
-
-
-}
-    #login fieldset{
-    
-        border:1px solid #1855d1;
-        width:400px;
-         margin-left: auto;
-         margin-right:auto;
-       
-    
-    
-    }
-    #login table {
-    width:400px;
-    text-align:center;
-    
-    }
-
-
-  
- 
-
-
-#register {
-    padding:15px;
-    font-size:.8em;
-    margin-bottom:20px;
-
-}
-    #register div legend,#login legend {
-    font-size:1.5em;
-    
-    }
-
-    #register #message {
-    text-align:center;
-    font-size:1.2em;
-    font-weight:bold;
-    color:red;
    
-    
-    }
-    #register #box1,#register #box2 {
-    float:left;
-    margin-bottom:20px;
-    
-    }
-    #register table {
-   width:535px;
-    
-    }
-#latestproduct h3 {
-   font-size:1em;
-
-}
-
-#latestproduct p,#latestproduct ul {
-   font-size:.8em;
-
-
-}
-#sidebar  {
-padding:15px;
-color:#ffffff;
-font-size:.9em;
-float:left;
-background-color:#0e1258;
-border-radius:20px;
-margin:10px;
-
-}
-#sidebar a{
-
-    color:white;
-
-}
-    #sidebar #profile {
-    text-align:center;
-    
-    }
-    #sidebar #profile img {
-    
-        border:1px outset black;
-        border-radius:10px;
-        width:100px;
-        height:120px;
-
-    
-    }
-#error  {
-      padding:20px;
-      text-align:center;
-      color:#0e1258;
-}
-#addproduct {
-padding:15px;
-margin-top:15px;
-margin-bottom:15px;
-
-}
-
-    #addproduct #products {
-    font-size:.8em;
-
-   margin-bottom:20px;
-    
-    }
-    #addproduct #productlist {
-    padding:15px;
-    text-align:center;
-    
- 
-  
-    
-    }
-
-    #list {
-
-        float:left;
-        width:100px;
-        margin:20px;
-
-    }
-
-.prodlist {
-  
-    overflow-y:scroll;
-
-}
-    .prodlist table {
-        font-size:.8em;
-        color:#090909;
-    }
-        .prodlist table th {
-        
-        text-align:left;
-        }
-
-        .prodlist table td {
-        
-        text-align:left;
-         font-style:italic;
-        }
-        .prodlist table img {
-       
-            border-radius:10px;
-            margin:10px;
-        }
-.prodlistimg:hover {
-  opacity:.70;
- 
- 
-
-}
-
-.orderdetails {
-margin:20px;
-font-size:.9em;
-float:left;
-padding:15px;
-border:1px solid blue;
-}
-
-#instructions {
-  font-size:.8em;
-  padding:15px;
-
-}
-#checkout div{
-   float:left;
-   background-color:aliceblue;
-
-}
-    #checkout table {
-     border:1px solid black;
-     width:500px;
-     text-align:center;
-     border-collapse:collapse;
-    }
-
-#checkout table tr th{
-
-    background-color:#0e1258;
-    color:white;
-   
-}
-
-#checkout table td{
-
-    border:1px solid #232121;
-   
-}
-
-
-
-
-#payment {
-   float:right;
-   width:40%;
-
-}
-
-
-#checkoutcart table {
-    width:100px;
-
-}
-
-#contactpage {
-
-    height:500px;
-}
-
-
-#map {
-  height: 100%; 
-  width: 100%; 
-  position:absolute; 
-  top: 0; 
-  left: 0; 
-  z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
-
-}
-
-   
-
-
-
-
-#contactform {
-
-  position: relative; 
-  z-index: 1; /* The z-index should be higher than Google Maps */
-  width: 700px;
-  margin: 20px auto 0;
-  padding: 10px;
-  background: white;
-  height: auto;
-  opacity: .70; /* Set the opacity for a slightly transparent Google Form */ 
-  color: white;
-  border-radius:15px;
-  color:black;
-  font-family:Verdana;
-  font-size:.9em;
-  border:1px dotted black;
-
-
-}
-#contactform #address {
-background-color:black;
-color:white;
-padding:10px;
-border-radius:10px;
-margin:10px;
-text-shadow:1px 2px 2px #adae0d;
-}
-#contactform #address p{
-    line-height:10px;
-
-}
-
-#contactform #address img {
-  width:30px;
-  height:30px;
-  padding:5px;
-  border-radius:5px;
-  
-
-}
-
-
-    #contactform table caption{
-    
-        font-size:2em;
-    
-    }
-    #contactform table {
+    background-color:#ffffff;
+    height:600px;
     width:100%;
-    text-align:center;
     
-    }
-        #contactform table input{
-        
-            border:1px inset #0e1258;
-            border-radius:5px;
-            height:20px;
-            padding:5px;
-            color:#0e1258;
+}
 
-        
-        }
-        #contactform table textarea {
-              border:1px inset #0e1258;
-            border-radius:5px;
-            font-family:Verdana;
-            font-size:.8em;
-            padding:5px;
-              color:#0e1258;
-          
-        }
-        #contactform table input[type=submit] {
-        background-color:#0e1258;
-        font-family:Verdana;
-        font-size:1em;
-        padding:0px;
-        height:50px;
-        width:100px;
-        border-radius:5px;
-        color:white;
-        border:1px solid black;
-        
-        }
-        .grid1{
-            margin-left:auto;
-            margin-right:auto;
+#footer{
+color:white;
+text-align:center;
+padding:20px;
+}
 
-        }
+#footer table {
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    clear:both;
+}
 
+#footer img {
+    width:50px;
+    height:50px;
+    margin:10px;
+    border-radius:10px;
 
+}
 
+#footer p {
+    margin:10px;
+}
 
+#footer a {
+    color:white;
+    background-color:black;
+    padding:10px;
+    
 
+}
+
+#homepage {
+    float:left;
+    height:600px;
+    width:70%;
+    backgr
+}
+
+#signup {
+    float:right;
+    height:600px;
+    width:30%;
+}
