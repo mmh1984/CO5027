@@ -117,11 +117,22 @@ padding:20px;
     float:left;
     height:600px;
     width:70%;
-    backgr
+    background-image:url("../images/download.jpg");
+    background-size:cover;
+}
+#homepage:hover {
+     background-image:url("../images/downloadhover.jpg");
+     opacity:.8;
+
 }
 
 #signup {
     float:right;
     height:600px;
-    width:30%;
+    width:28%;
+    padding:10px;
 }
+#signup caption {
+
+}
+
